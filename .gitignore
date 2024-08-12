@@ -16,3 +16,6 @@ ENV/
 
 # macOS
 .DS_Store
+
+#Extras
+00-!Paso-a-Paso.md
