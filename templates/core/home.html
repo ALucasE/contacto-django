@@ -1,0 +1,21 @@
+<!-- HERENCIA DE BASE -->
+{% extends "core/base.html" %}
+
+<!-- CARGA LOS ESTATICOS -->
+{% load static %}
+
+<!-- TITULO DINAMICO -->
+{% block titulo %} Contacto {% endblock titulo %}
+
+
+
+
+<!-- CONTENIDO PRINCIPAL -->
+{% block contenido_principal %}
+<h2>Inicio</h2>
+<ul>
+    <li><a href="{% url 'inicio' %}">Inicio</a></li>
+    <li><a href="{% url 'contacto' %}">Contacto</a></li>
+</ul>
+{% endblock contenido_principal %}
+
